@@ -1,0 +1,20 @@
+<header id="header">
+    <h1 id="heading">Connected</h1>
+    <ul>
+        <% if (locals.user) {%>
+
+            <li><a href="/users/profile/<%= user.id%>"><%= user.name %></a></li>
+            <li>
+                <a href="/users/sign-out">Sign Out</a>
+            </li>
+        <%}else{%>
+            <li>
+            <a href="/users/sign-in">Sign-in</a>
+            </li>
+            <li>
+                <a href="/users/sign-up">Sign-up</a>
+                </li>
+            <%}%>
+        
+    </ul>
+</header>

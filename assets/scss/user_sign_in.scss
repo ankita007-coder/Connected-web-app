@@ -1,0 +1,26 @@
+h1{
+    margin-top: 0;
+}
+form{
+    background-color: bisque;
+    padding: 20px 10px;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px rgb(198, 193, 175);
+    input[type=email],input[type=password]{
+        width: 90%;
+        height: 40px;
+    }
+    input[type=submit]{
+        padding: 10px;
+        background-color: red;
+        border: none;
+        color: white;
+        transition: 0.3s;
+    }
+    input[type=submit]:hover{
+        color: black;
+        background-color: green;
+    }
+}

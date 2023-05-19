@@ -1,0 +1,30 @@
+#header{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    #heading{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+    
+    ul{
+        margin-top: 25px;
+        list-style-type: none;
+        li{
+            display: inline;
+            a{
+                text-decoration: none;
+                color: wheat;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding: 10px;
+                background-color: black;
+                transition: 0.2s;
+                border-radius: 10px;
+            }
+            a:hover{
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}
